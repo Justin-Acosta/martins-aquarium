@@ -1,490 +1,478 @@
 const database = {
     fish: [
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://www.aquariumofpacific.org/images/made_new/images-uploads-clownfish_600_q85.jpg",
           name: "Clownfish",
           species: "Amphiprioninae",
-          length: "8 inches",
-          location: "Great Barrier Reef",
+          length: 8,          location: "Great Barrier Reef",
           food: "Plankton"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://apps.gameshowhub.com/thumb2/xKHNXTSp4lFeyt7.jpg",
           name: "Angelfish",
           species: "Pterophyllum",
-          length: "6 inches",
-          location: "Amazon River",
+          length: 6,          location: "Amazon River",
           food: "Algae"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://www.thealexandriazoo.com/images/animals/BlueTang02.jpg",
           name: "Blue Tang",
           species: "Paracanthurus hepatus",
-          length: "12 inches",
+          length: 12 ,
           location: "Indo-Pacific Ocean",
           food: "Algae"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://content.instructables.com/FV2/6SBO/FLROKI2Q/FV26SBOFLROKI2Q.jpg?auto=webp",
           name: "Betta",
           species: "Betta splendens",
-          length: "3 inches",
-          location: "Southeast Asia",
+          length: 3,          location: "Southeast Asia",
           food: "Insects"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://azgardens.com/wp-content/uploads/2017/05/Super-Red-Turquoise-Discus-Fish.jpg",
           name: "Discus",
           species: "Symphysodon",
-          length: "8 inches",
-          location: "Amazon River",
+          length: 8,          location: "Amazon River",
           food: "Insects"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Guppy-male.jpg/640px-Guppy-male.jpg",
           name: "Guppy",
           species: "Poecilia reticulata",
-          length: "1.5 inches",
+          length: 1.5,
           location: "South America",
           food: "Algae"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://s3-us-west-2.amazonaws.com/getgillsbucket/media/images/Dans-Fish-Long-Fin-Neon-Tetra-Long-Fin-Neon-Tetra-Paracheirodon-innesi-4c657b011f1a476ba407a666e48ff30e-14849.jpg",
           name: "Tetra",
           species: "Hyphessobrycon",
-          length: "2 inches",
-          location: "Amazon River",
+          length: 2,          location: "Amazon River",
           food: "Insects"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://animal-world.com/wp-content/uploads/2023/08/Synchiropus_splendidus_01.jpg",
           name: "Mandarinfish",
           species: "Synchiropus splendidus",
-          length: "3 inches",
-          location: "Pacific Ocean",
+          length: 3,          location: "Pacific Ocean",
           food: "Small Crustaceans"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://www.georgiaaquarium.org/wp-content/uploads/2019/05/red-lionfish-3.jpg",
           name: "Lionfish",
           species: "Pterois",
-          length: "15 inches",
+          length: 15 ,
           location: "Indo-Pacific",
           food: "Small Fish"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://www.waikikiaquarium.org/wp-content/uploads/2013/11/moorish_idol_620.jpg",
           name: "Moorish Idol",
           species: "Zanclus cornutus",
-          length: "7 inches",
-          location: "Indo-Pacific",
+          length: 7,          location: "Indo-Pacific",
           food: "Sponges"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Neon Tetra",
           species: "Paracheirodon innesi",
-          length: "1 inch",
-          location: "South America",
+          length: 1 ,        location: "South America",
           food: "Insects"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Piranha",
           species: "Pygocentrus",
-          length: "12 inches",
+          length: 12 ,
           location: "Amazon River",
           food: "Fish"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Rainbowfish",
           species: "Melanotaenia",
-          length: "4 inches",
+          length: 4,
           location: "Australia",
           food: "Insects"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Swordtail",
           species: "Xiphophorus hellerii",
-          length: "4 inches",
-          location: "Central America",
+          length: 4,          location: "Central America",
           food: "Algae"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Zebrafish",
           species: "Danio rerio",
-          length: "2.5 inches",
+          length: 2,
           location: "Southeast Asia",
           food: "Insects"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Oscar",
           species: "Astronotus ocellatus",
-          length: "12 inches",
+          length: 12 ,
           location: "South America",
           food: "Fish"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Goldfish",
           species: "Carassius auratus",
-          length: "6 inches",
-          location: "China",
+          length: 6,          location: "China",
           food: "Algae"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Barracuda",
           species: "Sphyraena",
-          length: "36 inches",
+          length: 3,
           location: "Tropical Oceans",
           food: "Fish"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Catfish",
           species: "Siluriformes",
-          length: "24 inches",
+          length: 2,
           location: "Worldwide",
           food: "Insects"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Pufferfish",
           species: "Tetraodontidae",
-          length: "12 inches",
+          length: 12 ,
           location: "Tropical Oceans",
           food: "Crustaceans"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Anemonefish",
           species: "Amphiprioninae",
-          length: "4 inches",
-          location: "Pacific Ocean",
+          length: 4,          location: "Pacific Ocean",
           food: "Plankton"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Mackerel",
           species: "Scombridae",
-          length: "18 inches",
+          length: 18 ,
           location: "Worldwide",
           food: "Small Fish"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Salmon",
           species: "Salmo",
-          length: "30 inches",
+          length: 3,
           location: "North Atlantic",
           food: "Small Fish"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Trout",
           species: "Salmo",
-          length: "24 inches",
+          length: 2,
           location: "Freshwater Worldwide",
           food: "Insects"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Stingray",
           species: "Dasyatidae",
-          length: "24 inches",
+          length: 2,
           location: "Tropical Oceans",
           food: "Crustaceans"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Shark",
           species: "Selachimorpha",
-          length: "72 inches",
+          length: 72 ,
           location: "Worldwide",
           food: "Fish"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Octopus",
           species: "Octopoda",
-          length: "20 inches",
+          length: 2,
           location: "Worldwide",
           food: "Crustaceans"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Sardine",
           species: "Sardina pilchardus",
-          length: "12 inches",
+          length: 12 ,
           location: "Worldwide",
           food: "Plankton"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Herring",
           species: "Clupea",
-          length: "12 inches",
+          length: 12 ,
           location: "Worldwide",
           food: "Plankton"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Cod",
           species: "Gadus",
-          length: "36 inches",
+          length: 3,
           location: "North Atlantic",
           food: "Small Fish"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Tuna",
           species: "Thunnini",
-          length: "72 inches",
+          length: 72 ,
           location: "Worldwide",
           food: "Small Fish"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Marlin",
           species: "Istiophorus",
-          length: "180 inches",
+          length: 180,
           location: "Worldwide",
           food: "Fish"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Swordfish",
           species: "Xiphias",
-          length: "144 inches",
+          length: 144,
           location: "Worldwide",
           food: "Fish"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Sea Bass",
           species: "Dicentrarchus",
-          length: "36 inches",
+          length: 3,
           location: "Worldwide",
           food: "Small Fish"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Anchovy",
           species: "Engraulidae",
-          length: "8 inches",
-          location: "Worldwide",
+          length: 8,          location: "Worldwide",
           food: "Plankton"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Eel",
           species: "Anguilliformes",
-          length: "48 inches",
+          length: 4,
           location: "Worldwide",
           food: "Small Fish"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Flounder",
           species: "Pleuronectidae",
-          length: "24 inches",
+          length: 2,
           location: "Worldwide",
           food: "Crustaceans"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Grouper",
           species: "Serranidae",
-          length: "36 inches",
+          length: 3,
           location: "Worldwide",
           food: "Small Fish"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Halibut",
           species: "Hippoglossus",
-          length: "72 inches",
+          length: 72 ,
           location: "Worldwide",
           food: "Crustaceans"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Haddock",
           species: "Melanogrammus aeglefinus",
-          length: "36 inches",
+          length: 3,
           location: "North Atlantic",
           food: "Small Fish"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Mullet",
           species: "Mugilidae",
-          length: "24 inches",
+          length: 2,
           location: "Worldwide",
           food: "Algae"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Perch",
           species: "Perca",
-          length: "12 inches",
+          length: 12 ,
           location: "Worldwide",
           food: "Insects"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Sardine",
           species: "Sardina pilchardus",
-          length: "12 inches",
+          length: 12 ,
           location: "Worldwide",
           food: "Plankton"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Snapper",
           species: "Lutjanidae",
-          length: "24 inches",
+          length: 2,
           location: "Worldwide",
           food: "Small Fish"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Sole",
           species: "Soleidae",
-          length: "12 inches",
+          length: 12 ,
           location: "Worldwide",
           food: "Crustaceans"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Tilapia",
           species: "Cichlidae",
-          length: "12 inches",
+          length: 12 ,
           location: "Worldwide",
           food: "Algae"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Walleye",
           species: "Sander vitreus",
-          length: "36 inches",
+          length: 3,
           location: "North America",
           food: "Small Fish"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Hake",
           species: "Merluccius",
-          length: "24 inches",
+          length: 2,
           location: "Worldwide",
           food: "Small Fish"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Monkfish",
           species: "Lophius",
-          length: "36 inches",
+          length: 3,
           location: "Worldwide",
           food: "Crustaceans"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Mahi Mahi",
           species: "Coryphaena hippurus",
-          length: "72 inches",
+          length: 72 ,
           location: "Worldwide",
           food: "Small Fish"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Wahoo",
           species: "Acanthocybium solandri",
-          length: "72 inches",
+          length: 72 ,
           location: "Worldwide",
           food: "Small Fish"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Tilefish",
           species: "Malacanthidae",
-          length: "24 inches",
+          length: 2,
           location: "Worldwide",
           food: "Crustaceans"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Rockfish",
           species: "Sebastes",
-          length: "24 inches",
+          length: 2,
           location: "Worldwide",
           food: "Small Fish"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Sockeye Salmon",
           species: "Oncorhynchus nerka",
-          length: "36 inches",
+          length: 3,
           location: "North Pacific",
           food: "Small Fish"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Arctic Char",
           species: "Salvelinus alpinus",
-          length: "36 inches",
+          length: 3,
           location: "Arctic Waters",
           food: "Insects"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Tigerfish",
           species: "Hydrocynus",
-          length: "36 inches",
+          length: 3,
           location: "African Rivers",
           food: "Fish"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Giant Trevally",
           species: "Caranx ignobilis",
-          length: "72 inches",
+          length: 72 ,
           location: "Indo-Pacific",
           food: "Small Fish"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Archerfish",
           species: "Toxotidae",
-          length: "8 inches",
+          length: 8,          
           location: "Southeast Asia",
           food: "Insects"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Albacore",
           species: "Thunnus alalunga",
-          length: "72 inches",
+          length: 72 ,
           location: "Worldwide",
           food: "Small Fish"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Yellowfin Tuna",
           species: "Thunnus albacares",
-          length: "72 inches",
+          length: 72 ,
           location: "Worldwide",
           food: "Small Fish"
         },
         {
-          image: "https://lh3.googleusercontent.com/proxy/ryaUknvg-wmm4YP8EG0eeqeKI5zAPncSsVh834CeiCac_cPMOTnWjzrWg-Z2lmYguEsfy3L_n03loDymGPpY7tSrlwzN87k",
+          image: "https://diamondpainting5d.com/wp-content/uploads/2022/08/spongebob-fish-diamond-by-numbers.jpg",
           name: "Bluefin Tuna",
           species: "Thunnus thynnus",
-          length: "72 inches",
+          length: 72 ,
           location: "Worldwide",
           food: "Small Fish"
         }
